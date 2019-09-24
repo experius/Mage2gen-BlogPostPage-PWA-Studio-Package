@@ -1,0 +1,9 @@
+query post($post_id: String!) {
+    post(post_id: $post_id) {
+        post_id
+        title
+        featured_image_file
+        content
+
+    }
+}

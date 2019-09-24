@@ -1,0 +1,26 @@
+{
+  "name": "@lewisvoncken/blogpostpage",
+  "version": "1.0.0-dev.6",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "description": "Aheadworks Blog PostPage Integration in PWA Studio",
+  "files": [
+    "{lib,static,templates}/*",
+    "{lib,static,templates}/**/*"
+  ],
+  "browser": {
+    "@magento/venia-drivers": "./../../@magento/venia-ui/lib/drivers"
+  },
+  "scripts": {},
+  "repository": "github:magento-research/pwa-studio",
+  "author": "Mr. Lewis",
+  "license": "(OSL-3.0 OR AFL-3.0)",
+  "bugs": {},
+  "homepage": "https://mage2gen.com",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "sideEffects": false
+}
